@@ -8,7 +8,7 @@ from peer_review.models import User, Document
 from peer_review.view.userFunctions import user_error
 from peer_review.view.userManagement import create_user_send_otp
 
-
+# herb is testing
 def add_csv_info(user_list):
     for row in user_list:
         module_dir = os.path.dirname(__file__)
